@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class MaasHesap {
-    static void main(String[] args) {
+  public static void main(String[] args) {
 
       final double SGK_ORANI = 0.14;
       final double GELIR_VERGISI_ORANI = 0.15;
@@ -87,7 +87,6 @@ public class MaasHesap {
         System.out.printf("%-30s : %8.2f %s\n", "   TOPLAM KESINTI ", toplamKesinti, "TL");
         System.out.printf("%-30s : %8.2f %s\n", "NET MAAS ", netMaas, "TL");
         System.out.println("============================================");
-
 
     }
 
