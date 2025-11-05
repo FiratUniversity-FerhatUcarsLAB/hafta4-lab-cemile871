@@ -1,9 +1,8 @@
 //Ad soyad: Cemile Akay
 //Ogrenci No: 250541099
-
-
-
-
+//Tarih: 05.11.2025
+//Açıklama: Görev 3 - Maaş Hesaplama
+//Bu program kullanıcıdan bilgi alıp maaş hesaplar 
 
 
 import java.util.Scanner;
