@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [CEMİLE AKAY]
- * Ogrenci No: [250541099]
- * Tarih: [05.11.2025]
+ * Ad Soyad: CEMİLE AKAY
+ * Ogrenci No: 250541099
+ * Tarih: 05.11.2025
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -68,16 +68,7 @@ public class OgrenciBilgi {
 
         System.out.println("Durum: " + durum);
         System.out.println("===============================");
-            }
-
-}
-        
-        
-        
-        
-        
-        
-
+            
         
         
         // Scanner'i kapatin (önemli pratik)
