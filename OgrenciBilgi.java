@@ -16,17 +16,6 @@ public class OgrenciBilgi {
         // Scanner objesi olusturun
          Scanner input = new Scanner(System.in);
         
-        // Degisken tanimlamalari
-        // String ad, soyad;
-       String ad = input.next();
-       String soyad = input.next();
-        
-        // int ogrenciNo, yas;
-       int ogrenciNo = input.nextInt();
-       int yas = input.nextInt();
-        
-        // double gpa;
-       double gpa = input.nextDouble();
         
         // Kullanicidan bilgileri alin
         System.out.println("=== OGRENCI BILGI SISTEMI ===");
@@ -34,18 +23,23 @@ public class OgrenciBilgi {
         
         // Ad
          System.out.print("Adinizi girin: ");
+         String ad = input.next();
         
         // Soyad
          System.out.print("Soyadinizi girin: ");
+        String soyad = input.next();
         
         // Ogrenci No
          System.out.print("Numaraniz: ");
+          int ogrenciNo = input.nextInt();
         
         // Yas
          System.out.print("Yasiniz: ");
+         int yas = input.nextInt();
         
         // GPA
         System.out.print("GPA (0.00-4.00): ");
+         double gpa = input.nextDouble();
 
         //Scanner nesnesini kapat
         input.close();
