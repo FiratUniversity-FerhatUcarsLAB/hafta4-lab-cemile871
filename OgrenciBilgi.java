@@ -47,6 +47,9 @@ public class OgrenciBilgi {
         // GPA
         System.out.print("GPA (0.00-4.00): ");
 
+        //Scanner nesnesini kapat
+        input.close();
+
         //Durum belirleme
         String durum;
         if (gpa >= 3.00) {
@@ -69,9 +72,6 @@ public class OgrenciBilgi {
         System.out.println("Durum: " + durum);
         System.out.println("===============================");
             
-        
-        
-        // Scanner'i kapatin (önemli pratik)
         
     }
 }
