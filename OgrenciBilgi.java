@@ -47,7 +47,7 @@ public class OgrenciBilgi {
         //Durum belirleme
         String durum;
         if (gpa >= 3.00) {
-            durum = "Normal Ogrenci";
+            durum = "Basarili Ogrenci";
         } else if (gpa >= 2.00) {
             durum = "Normal Ogrenci";
         } else {
