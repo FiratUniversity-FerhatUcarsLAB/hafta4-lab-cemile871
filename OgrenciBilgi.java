@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [CEMİLE AKAY]
+ * Ogrenci No: [250541099]
+ * Tarih: [05.11.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -14,37 +14,63 @@ import java.util.Scanner;
 public class OgrenciBilgi {
     public static void main(String[] args) {
         // Scanner objesi olusturun
-        
+         Scanner input = new Scanner(System.in);
         
         // Degisken tanimlamalari
         // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
+       String ad = input.next();
+       String soyad = input.next();
         
+        // int ogrenciNo, yas;
+       int ogrenciNo = input.nextInt();
+       int yas = input.nextInt();
+        
+        // double gpa;
+       double gpa = input.nextDouble();
         
         // Kullanicidan bilgileri alin
         System.out.println("=== OGRENCI BILGI SISTEMI ===");
         System.out.println();
         
         // Ad
-        
+         System.out.print("Adinizi girin: ");
         
         // Soyad
-        
+         System.out.print("Soyadinizi girin: ");
         
         // Ogrenci No
-        
+         System.out.print("Numaraniz: ");
         
         // Yas
-        
+         System.out.print("Yasiniz: ");
         
         // GPA
-        
+        System.out.print("GPA (0.00-4.00): ");
+
+        //Durum belirleme
+        String durum;
+        if (gpa >= 3.00) {
+            durum = "Normal Ogrenci";
+        } else if (gpa >= 2.00) {
+            durum = "Normal Ogrenci";
+        } else {
+            durum = "Dikkat Etmesi Gereken Ogrenci";
+        }
+
         
         // Bilgileri ekrana yazdirin
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
+        System.out.println("Ad Soyad: " + ad + " " + soyad);
+        System.out.println("Ogrenci No: " + ogrenciNo);
+        System.out.println("Yas: " + yas);
+
+        System.out.printf("GPA: %.2f %n", gpa);
+
+        System.out.println("Durum: " + durum);
+        System.out.println("===============================");
+            }
+
+}
         
         
         
