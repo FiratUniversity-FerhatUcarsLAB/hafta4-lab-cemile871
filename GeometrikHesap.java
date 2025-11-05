@@ -2,7 +2,7 @@
 //Ogrenci No: 250541099
 //Tarih: 05.11.2025
 //Açıklama: Görev 2 - Geometrik hesaplama
-
+//Bu program kullanıcıdan dairenin yarıçapını alır ve hesaplamalar yapıp ekrana yazdırır
 
 import java.util.Scanner;
 import java.lang.Math;
